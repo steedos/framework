@@ -25,7 +25,7 @@ Package.onUse(function(api) {
 
   api.addFiles([
     'core.coffee'
-  ]);
+  ], "client");
 
   api.export('Steedos');
 

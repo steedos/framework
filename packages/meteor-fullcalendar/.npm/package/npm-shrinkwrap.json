@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "fullcalendar": {
+      "version": "3.2.0",
+      "resolved": "https://registry.npmjs.org/fullcalendar/-/fullcalendar-3.2.0.tgz",
+      "from": "fullcalendar@3.2.0"
+    },
+    "jquery": {
+      "version": "3.2.1",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.2.1.tgz",
+      "from": "jquery@>=2.0.0 <4.0.0"
+    },
+    "moment": {
+      "version": "2.18.0",
+      "resolved": "https://registry.npmjs.org/moment/-/moment-2.18.0.tgz",
+      "from": "moment@>=2.9.0 <3.0.0"
+    }
+  }
+}

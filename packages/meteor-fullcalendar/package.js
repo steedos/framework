@@ -1,12 +1,12 @@
 Package.describe({
-  name: 'steedos:adminlte',
-  version: '2.3.11',
-  summary: 'adminlte package',
-  git: ''
+  name: 'steedos:fullcalendar',
+  version: '3.2.0',
+  summary: 'fullcalendar package',
+  git: 'https://github.com/fullcalendar/fullcalendar'
 });
 
 Npm.depends({
-  "admin-lte": "2.3.11"
+  "fullcalendar": "3.2.0"
 });
 
 Package.onUse(function(api) {
@@ -15,8 +15,7 @@ Package.onUse(function(api) {
   api.use('coffeescript');
   api.use('ecmascript');
 
-  api.use('steedos:bootstrap@3.3.7');
-
+  api.use('steedos:moment');
   api.addFiles('core.js', "client");
 
 });

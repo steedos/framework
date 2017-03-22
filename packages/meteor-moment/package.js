@@ -1,12 +1,12 @@
 Package.describe({
-  name: 'steedos:adminlte',
-  version: '2.3.11',
-  summary: 'adminlte package',
+  name: 'steedos:moment',
+  version: '2.18.0',
+  summary: 'moment package',
   git: ''
 });
 
 Npm.depends({
-  "admin-lte": "2.3.11"
+  "moment": "2.18.0"
 });
 
 Package.onUse(function(api) {
@@ -14,8 +14,6 @@ Package.onUse(function(api) {
 
   api.use('coffeescript');
   api.use('ecmascript');
-
-  api.use('steedos:bootstrap@3.3.7');
 
   api.addFiles('core.js', "client");
 
