@@ -1,1 +1,1 @@
-Steedos.API.setAppTitle("Steedos Developer");
+Steedos.API.setAppTitle("Steedos Framework");
