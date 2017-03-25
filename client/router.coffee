@@ -1,5 +1,5 @@
 FlowRouter.route '/',
 	action: (params, queryParams)->
-		BlazeLayout.render 'platformLayout',
+		BlazeLayout.render 'steedosLayout',
 			main: ""
 

@@ -1,8 +1,8 @@
 Package.describe({
   name: 'steedos:theme',
-  version: '0.0.1',
+  version: '0.0.3',
   summary: 'Steedos Theme',
-  git: 'https://github.com/steedos/platform/packages/steedos-theme'
+  git: 'https://github.com/steedos/developer/packages/steedos-theme'
 });
 
 Package.onUse(function(api) {
@@ -10,16 +10,18 @@ Package.onUse(function(api) {
 
   api.use('coffeescript');
   api.use('ecmascript');
+  api.use('blaze-html-templates');
+
   api.use('flemay:less-autoprefixer@1.2.0');
 
-  api.use('steedos:adminlte');
+  api.use('steedos:adminlte@2.3.11');
 
   api.addFiles([
     'client/core.coffee',
     'client/admin-lte.less'
   ], "client");
 
-  api.export('Steedos');
+  api.export('Theme');
 
 });
 
