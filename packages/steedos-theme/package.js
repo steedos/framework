@@ -12,6 +12,8 @@ Package.onUse(function(api) {
   api.use('ecmascript');
   api.use('flemay:less-autoprefixer@1.2.0');
 
+  api.use('steedos:adminlte');
+
   api.addFiles([
     'client/core.coffee',
     'client/admin-lte.less'
