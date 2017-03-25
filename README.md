@@ -1,6 +1,8 @@
-# Steedos Developer
+# Steedos Framework
 
-Steedos Developer provide development resources and build in meteor packages for building enterprise SaaS applications, like Slack.
+Steedos Framework is a meteor framework to build enterprise SaaS applications, like Slack.
+
+Build in meteor packages:
 
 ### Steedos Theme 
 Enterprise theme for Steedos Apps, based on AdminLTE and Bootstrap
@@ -13,6 +15,8 @@ Seperate users to spaces (companies)
 
 ### Steedos Organizations
 Assign users to organization units.
+
+## Apps built with Steedos Framework
 
 ### Steedos Admin
 Administration App for Steedos.
