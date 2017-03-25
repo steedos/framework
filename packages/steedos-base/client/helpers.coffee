@@ -6,7 +6,7 @@ Template.registerHelpers = (dict) ->
 		Template.registerHelper k, v
 
 Steedos.Helpers = 
-	getAppTitle: ()->
+	steedosAppTitle: ()->
 		return Session.get("app_title")
 
 Template.registerHelpers Steedos.Helpers

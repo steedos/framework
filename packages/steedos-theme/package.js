@@ -1,6 +1,6 @@
 Package.describe({
   name: 'steedos:theme',
-  version: '0.0.3',
+  version: '0.0.4',
   summary: 'Steedos Theme',
   git: 'https://github.com/steedos/developer/packages/steedos-theme'
 });
@@ -14,7 +14,7 @@ Package.onUse(function(api) {
 
   api.use('flemay:less-autoprefixer@1.2.0');
 
-  api.use('steedos:adminlte@2.3.11');
+  api.use('steedos:adminlte@2.3.11_1');
 
   api.addFiles([
     'client/core.coffee',

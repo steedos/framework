@@ -1,6 +1,6 @@
 Package.describe({
   name: 'steedos:adminlte',
-  version: '2.3.11',
+  version: '2.3.11_1',
   summary: 'adminlte package',
   git: ''
 });
