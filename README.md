@@ -1,6 +1,6 @@
 # Steedos Framework
 
-Steedos Framework is a meteor framework to build enterprise SaaS applications, like Slack.
+Steedos Framework is a meteor framework to build Multi-tenant SaaS applications, like Slack.
 
 ## Build in meteor packages:
 - [steedos:bootstrap](https://github.com/steedos/framework/tree/master/packages/meteor-bootstrap)
