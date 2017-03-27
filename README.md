@@ -3,7 +3,10 @@
 Steedos Framework is a meteor framework to build enterprise SaaS applications, like Slack.
 
 ## Build in meteor packages:
-- Steedos Theme: Enterprise theme for Steedos Apps, based on AdminLTE and Bootstrap
+- [steedos:bootstrap](https://github.com/steedos/framework/tree/master/packages/meteor-bootstrap)
+- [steedos:adminlte](https://github.com/steedos/framework/tree/master/packages/meteor-adminlte)
+- [steedos:theme](https://github.com/steedos/framework/tree/master/packages/steedos-theme): Enterprise theme for Steedos Apps, based on AdminLTE and Bootstrap
+- [steedos:base](https://github.com/steedos/framework/tree/master/packages/steedos-base): Base package for steedos apps.
 - Steedos Accounts: User login and account settings
 - Steedos Spaces: Seperate users to spaces (companies)
 - Steedos Organizations: Assign users to organization units.
