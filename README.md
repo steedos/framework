@@ -16,7 +16,6 @@ Steedos Framework is a meteor framework to build enterprise SaaS applications, l
 - Steedos Workflow: makes it super easy to turn your business processes into engaging, responsive, social software applications.
 
 ## Meteor packages depend on
-
 - [Meteor](http://docs.meteor.com/#/full/): Meteor is an ultra-simple environment for building modern websites. What once took weeks, even with the best tools, now takes hours with Meteor.
 - [Meteor User Accounts](https://github.com/meteor-useraccounts/core): a suite of packages for the Meteor.js platform. At the moment it includes forms for sign in, sign up, forgot password, reset password, change password, enroll account, and link or remove of many 3rd party services.
 - [Aldeed SimpleSchema](https://github.com/aldeed/meteor-simple-schema): A simple, reactive schema validation smart package for Meteor.
@@ -26,3 +25,13 @@ Steedos Framework is a meteor framework to build enterprise SaaS applications, l
 - [Meteor Collection Hooks](https://github.com/matb33/meteor-collection-hooks): Extends Mongo.Collection with before/after hooks for insert, update, remove, find, and findOne.
 - [Meteor Collection Helpers](https://github.com/dburles/meteor-collection-helpers): allows you to define helpers on your collections
 - [TAP i18n](https://github.com/TAPevents/tap-i18n): provides a comprehensive i18n solution for Meteor apps and packages
+- [meteorhacks:subs-manager](https://github.com/kadirahq/subs-manager):  You can use Subscription Manager to cache subscriptions in the client side. 
+
+## Developer Resources
+- [Coffeescript](http://coffeescript.org/): CoffeeScript is a little language that compiles into JavaScript.
+- [Bootstrap](http://getbootstrap.com/): most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+- AdminLTE
+- Fontawesome
+- Ionicons
+- 
+
