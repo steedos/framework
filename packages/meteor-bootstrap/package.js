@@ -1,21 +1,17 @@
 Package.describe({
   name: 'steedos:bootstrap',
-  version: '3.3.7',
+  version: '3.3.7_1',
   summary: 'bootstrap package',
   git: ''
 });
 
-Npm.depends({
-  "bootstrap": "3.3.7"
-});
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@1.3');
 
-  api.use('coffeescript');
-  api.use('ecmascript');
+  api.addFiles('js/bootstrap.js', "client");  
+  api.addFiles('css/bootstrap.css', "client");
 
-  api.addFiles('core.js', "client");
 
 });
 

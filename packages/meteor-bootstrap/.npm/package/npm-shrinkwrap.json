@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "bootstrap": {
-      "version": "3.3.7",
-      "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz",
-      "from": "bootstrap@3.3.7"
-    }
-  }
-}
