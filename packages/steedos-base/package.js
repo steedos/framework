@@ -27,7 +27,6 @@ Package.onUse(function(api) {
   api.use('kadira:flow-router@2.10.1');
   api.use('meteorhacks:subs-manager@1.6.4');
 
-
   api.addFiles([
     'client/core.coffee',
     'client/api.coffee',
