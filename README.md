@@ -7,7 +7,7 @@ Steedos Framework is a meteor framework to build Multi-tenant SaaS applications,
 - [steedos:adminlte](https://github.com/steedos/framework/tree/master/packages/meteor-adminlte)
 - [steedos:theme](https://github.com/steedos/framework/tree/master/packages/steedos-theme): Enterprise theme for Steedos Apps, based on AdminLTE and Bootstrap
 - [steedos:base](https://github.com/steedos/framework/tree/master/packages/steedos-base): Base package for steedos apps.
-- Steedos Accounts: User login and account settings
+- [steedos:accounts](https://github.com/steedos/framework/tree/master/packages/steedos-accounts): User login and account settings
 - Steedos Spaces: Seperate users to spaces (companies)
 - Steedos Organizations: Assign users to organization units.
 

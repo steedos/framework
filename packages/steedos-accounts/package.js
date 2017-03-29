@@ -2,7 +2,7 @@ Package.describe({
   name: 'steedos:accounts',
   version: '0.0.1',
   summary: 'User Accounts configration for Steedos',
-  git: 'https://github.com/steedos/developer/packages/steedos-accounts'
+  git: 'https://github.com/steedos/framework/packages/steedos-accounts'
 });
 
 Package.onUse(function(api) {
@@ -16,7 +16,7 @@ Package.onUse(function(api) {
 
   api.use('flemay:less-autoprefixer@1.2.0');
   api.use('kadira:flow-router@2.10.1');
-  api.use('tap:i18n', ['client', 'server']);
+  api.use('tap:i18n@1.8.2', ['client', 'server']);
   tapi18nFiles = ['i18n/en.i18n.json', 'i18n/zh-CN.i18n.json']
   api.addFiles(tapi18nFiles, ['client', 'server']);
 
