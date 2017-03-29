@@ -25,6 +25,23 @@
           </li>
       </ul>
     </nav>
+    <div class="navbar-custom-menu">
+      <ul class="nav navbar-nav">
+        {{#if steedosUserId}}
+        <li>
+          <a href="/steedos/sign-out">  
+            Sign Out
+          </a>
+        </li>
+        {{else}}
+        <li>
+          <a href="/steedos/sign-in">  
+            Sign In
+          </a>
+        </li>
+        {{/if}}
+      </ul>
+    </div>
   </header>
 
 </template>
