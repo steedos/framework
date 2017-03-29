@@ -1,6 +1,6 @@
 Package.describe({
   name: 'steedos:theme',
-  version: '0.0.5',
+  version: '0.0.6',
   summary: 'Steedos Theme',
   git: 'https://github.com/steedos/developer/packages/steedos-theme'
 });
