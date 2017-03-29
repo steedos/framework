@@ -26,6 +26,7 @@ tap:i18n
 kadira:flow-router
 kadira:blaze-layout
 
-steedos:base
 steedos:theme
+steedos:i18n
+steedos:base
 steedos:accounts

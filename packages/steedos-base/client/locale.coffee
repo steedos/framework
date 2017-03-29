@@ -11,3 +11,13 @@ Tracker.autorun ()->
 	if Meteor.user()
 		if Meteor.user().locale
 			Session.set("steedos-locale",Meteor.user().locale)
+
+
+
+Tracker.autorun ()->
+	if Session.get("steedos-locale") == "zh-cn"
+		TAPi18n.setLanguage("zh-CN")
+	else
+		TAPi18n.setLanguage("en")
+
+	
