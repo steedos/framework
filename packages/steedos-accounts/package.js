@@ -31,7 +31,6 @@ Package.onUse(function(api) {
   api.addFiles('client/core.coffee', "client");
   api.addFiles('client/router.coffee', "client");
 
-  api.addFiles('client/layout/header.html', "client");
   api.addFiles('client/layout/login_layout.html', "client");
   api.addFiles('client/layout/login_layout.coffee', "client");
   api.addFiles('client/layout/login_layout.less', "client");
