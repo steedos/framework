@@ -13,13 +13,6 @@ Steedos.Helpers =
 		return Meteor.userId()
 
 	steedosLocale: ()->
-		if Meteor.user()?.locale
-			locale = Meteor.user().locale
-		else
-			l = window.navigator.userLanguage || window.navigator.language || 'en'
-			if l.indexOf("zh") >=0
-				locale = "zh-cn"
-			else
-				locale = "en-us"
+		return Session.get("steedos-locale")
 				
 Template.registerHelpers Steedos.Helpers

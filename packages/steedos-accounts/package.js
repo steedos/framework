@@ -13,6 +13,8 @@ Package.onUse(function(api) {
   api.use('blaze-html-templates');
   api.use('accounts-password');
   api.use('underscore');
+  api.use('reactive-var');
+  api.use('tracker');
 
   api.use('flemay:less-autoprefixer@1.2.0');
   api.use('kadira:flow-router@2.10.1');
@@ -23,8 +25,12 @@ Package.onUse(function(api) {
   api.use('useraccounts:bootstrap@1.14.2');
   api.use('useraccounts:core@1.14.2');
   api.use('useraccounts:flow-routing@1.14.2');
+  api.use('softwarerero:accounts-t9n');
+
+  api.use('steedos:base');
 
   api.addFiles('lib/core.coffee');
+  api.addFiles('client/core.coffee', "client");
   api.addFiles('client/router.coffee', "client");
 
   api.addFiles('client/layout/login_layout.html', "client");

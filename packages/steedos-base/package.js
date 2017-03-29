@@ -14,6 +14,7 @@ Package.onUse(function(api) {
   api.use('blaze-html-templates');
   api.use('underscore');
   api.use('reactive-var');
+  api.use('tracker');
 
   api.use('dburles:collection-helpers@1.1.0');
   api.use('flemay:less-autoprefixer@1.2.0');
@@ -29,6 +30,7 @@ Package.onUse(function(api) {
 
   api.addFiles([
     'client/core.coffee',
+    'client/locale.coffee',
     'client/api.coffee',
     'client/helpers.coffee',
     'client/layout/main.html',

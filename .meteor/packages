@@ -21,6 +21,7 @@ accounts-password
 
 coffeescript@1.2.4_1
 
+fortawesome:fontawesome
 tap:i18n
 kadira:flow-router
 kadira:blaze-layout
