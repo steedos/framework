@@ -13,10 +13,10 @@ Steedos Framework is a meteor framework to build Multi-tenant SaaS applications,
 
 ## Apps built with Steedos Framework
 - Steedos Admin: Administration App for Steedos.
-- Steedos Calendar: Team Calendar App
+- [Steedos Calendar](https://github.com/steedos/calendar): Team Calendar App
 - Steedos Chat: Team Chat App, based on Rocket.Chat
-- Steedos Kanban: Team Kanban App, based on wekan
-- Steedos Workflow: makes it super easy to turn your business processes into engaging, responsive, social software applications.
+- [Steedos Kanban](https://github.com/steedos/kanban): Team Kanban App, based on wekan
+- [Steedos Workflow](https://github.com/steedos/apps): makes it super easy to turn your business processes into engaging, responsive, social software applications.
 
 ## Meteor packages depend on
 - [Meteor](http://docs.meteor.com/#/full/): Meteor is an ultra-simple environment for building modern websites. What once took weeks, even with the best tools, now takes hours with Meteor.

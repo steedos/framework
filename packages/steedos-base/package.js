@@ -28,7 +28,13 @@ Package.onUse(function(api) {
   api.use('kadira:flow-router@2.10.1');
   api.use('meteorhacks:subs-manager@1.6.4');
 
+  api.use('tap:i18n@1.8.2');
+
+  api.use('steedos:i18n');
+
   api.addFiles([
+    'lib/core.coffee',
+    'lib/tap-i18n.coffee',
     'client/core.coffee',
     'client/locale.coffee',
     'client/api.coffee',

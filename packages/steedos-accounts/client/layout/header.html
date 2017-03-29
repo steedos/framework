@@ -1,4 +1,4 @@
-<template name="steedosHeader">
+<template name="loginHeader">
 
   <header class="main-header">
     <!-- Logo -->
@@ -27,19 +27,16 @@
     </nav>
     <div class="navbar-custom-menu">
       <ul class="nav navbar-nav">
-        {{#if steedosUserId}}
         <li>
-          <a href="/steedos/sign-out">  
-            {{_ "accounts-sign-out"}}
-          </a>
-        </li>
-        {{else}}
-        <li>
-          <a href="/steedos/sign-in">  
+          <a href="/steedos/sign-in">
             {{_ "accounts-sign-in"}}
           </a>
         </li>
-        {{/if}}
+        <li>
+          <a href="/steedos/sign-up">
+            {{_ "accounts-sign-up"}}
+          </a>
+        </li>
       </ul>
     </div>
   </header>
