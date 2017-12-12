@@ -21,6 +21,10 @@ accounts-password
 
 coffeescript@1.2.4_1
 
+steedos:useraccounts-core
+steedos:useraccounts-bootstrap
+steedos:useraccounts-flow-routing
+
 fortawesome:fontawesome
 tap:i18n
 kadira:flow-router
@@ -31,3 +35,5 @@ steedos:i18n
 steedos:base
 steedos:accounts
 steedos:autoform-file
+
+steedos:cms@0.0.3
