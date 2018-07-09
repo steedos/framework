@@ -6,4 +6,3 @@ Meteor.publish 'autoformFileDoc', (collectionName, docId) ->
   if collection
     collection.find
       _id: docId
-      'metadata.owner': @userId
