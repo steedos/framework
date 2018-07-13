@@ -59,6 +59,7 @@ Template.afFileUpload.onCreated ->
 				"metadata.owner": Meteor.userId()
 			if err
 				return console.log(err)
+			self.data.value = fileObj._id
 			self.value.set fileObj._id
 
 	@autorun ->
@@ -123,7 +124,7 @@ Template.afFileUpload.events
 		collection = getCollection(t.data)
 		doc = collection.findOne(t.value.get())
 		if doc
-			doc.remove()
+			doc.remove() #TODO 删除此代码，防止用户移除附件后，没有点击保存导致附件丢失
 		t.value.set false
 	'fileuploadchange .js-file': (e, t, data) ->
 		FS.debug and console.log(data.files[0])
